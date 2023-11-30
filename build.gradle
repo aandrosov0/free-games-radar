@@ -1,0 +1,21 @@
+plugins {
+    id 'application'
+}
+
+java {
+    sourceCompatibility = targetCompatibility = JavaVersion.VERSION_17
+}
+
+application {
+    mainClass = 'aandrosov.freegamesradar.bot.Main'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.vk.api:sdk:1.0.15'
+    implementation 'org.slf4j:slf4j-simple:2.0.9'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.15.0'
+}
