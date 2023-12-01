@@ -1,6 +1,8 @@
 package aandrosov.freegamesradar;
 
-public interface Game {
+import java.io.Serializable;
+
+public interface Game extends Serializable {
 
     String title();
 
