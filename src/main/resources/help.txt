@@ -1,0 +1,12 @@
+To run application you must set:
+    1. social media (only vk)
+    2. other parameters for your social media
+
+Commands:
+    --help -> this message
+    --social_media -> social media to post (only vk)
+    --app_id -> your app id. Required for VK
+    --group_id -> your group id. Required for VK
+
+Example:
+    ./FreeGamesRadar --social_media vk --app_id 213123 --group_id 12352315312
