@@ -7,7 +7,7 @@ java {
 }
 
 application {
-    mainClass = 'aandrosov.freegamesradar.bot.Main'
+    mainClass = 'aandrosov.freegamesradar.app.Application'
 }
 
 repositories {

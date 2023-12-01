@@ -3,6 +3,7 @@
   <component name="AdditionalModuleElements">
     <content url="file:///disk2/Documents/FreeGamesRadar/src/main" dumb="true">
       <sourceFolder url="file:///disk2/Documents/FreeGamesRadar/src/main/java" isTestSource="false" />
+      <sourceFolder url="file:///disk2/Documents/FreeGamesRadar/src/main/resources" type="java-resource" />
     </content>
   </component>
 </module>
