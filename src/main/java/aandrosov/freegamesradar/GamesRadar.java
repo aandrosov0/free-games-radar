@@ -4,5 +4,5 @@ import java.util.List;
 
 public interface GamesRadar {
 
-    List<Game> getAllFreeGames();
+    List<Game> getAllFreeGames(long timeout);
 }
